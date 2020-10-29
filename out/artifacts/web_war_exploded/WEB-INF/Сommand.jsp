@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Команда</title>
 </head>
 <body>
@@ -43,12 +43,12 @@
 
                 <ul class="menu">
 
-                    <li><a href="index.jsp">Головна</a></li>
+                    <li><a href="../index.jsp">Головна</a></li>
                     <li class="current"><span>Команда</span></li>
-                    <li><a href="Table.jsp">Таблиця</a> <br></li>
-                    <li><a href="History.jsp">Історія</a> <br></li>
-                    <li><a href="PhotoGallery.jsp">Фотогалерея</a> <br></li>
-                    <li><a href="Achievements.jsp">Досягнення</a></li>
+                    <li><a href="../Table.jsp">Таблиця</a> <br></li>
+                    <li><a href="../History.jsp">Історія</a> <br></li>
+                    <li><a href="../PhotoGallery.jsp">Фотогалерея</a> <br></li>
+                    <li><a href="../Achievements.jsp">Досягнення</a></li>
 
 
                 </ul>
@@ -78,9 +78,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <p> ${name}
-                            ${age}
-                             </p>
+                        <p>${name} </p>
 
 
 

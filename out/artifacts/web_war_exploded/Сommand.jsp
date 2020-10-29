@@ -1,4 +1,4 @@
-<%@ page import="main.res.TestMap" %><%--
+<%--
   Created by IntelliJ IDEA.
   User: Александр
   Date: 23.03.2020
@@ -78,10 +78,12 @@
                 </tr>
                 <tr>
                     <td>
-                        <p>Today </p>
+                        <p> ${name}
+                            ${age}
+                             </p>
 
-                        <%= out.println( new TestMap().playersMap.get(2).getName())
-                    %>
+
+
                          </td>
                     <td></td>
                     <td>mary@example.com</td>
