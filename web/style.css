@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+    padding-top: 20px;
+}
+
+header {
+    background: #f5f7fa;
+}
+
+.header-bg {
+    background: url(img/41175878.jpg) no-repeat center bottom; /* Животные */
+    height: 405px; /* Высота шапки */
+    text-align: center; /* Выравнивание по центру */
+}
+
+.header-bg img {
+    position: relative; /* Относительное позиционирование */
+    top: 40px; /* Сдвигаем картинку вниз */
+}
+
+h1 {
+    text-align: center;
+    margin: 15px;
+}
+
+h2 {
+    margin: 15px;
+    text-align: center;
+
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    left: 5px;
+    border: bisque;
+    width: 180px;
+}
+
+button {
+    height: 28px;
+    width: 85px;
+    margin: 5px;
+
+
+}
+
+/* Основная часть */
+/* -------------------------------------------------------------------------- */
+
+.content-gradient {
+    background: #f5f7fa;
+}
+
+.content-bg {
+    width: 1200px; /* Ширина макета */
+    margin: auto; /* Выравнивание по центру */
+
+}
+
+.content-white {
+    background: #f5f7fa; /* Белый цвет фона */
+    margin: 0 11px; /* Отступы по горизонтали */
+    padding: 20px 40px 80px; /* Поля */
+    text-align: justify; /* Выравнивание по ширине */
+}
+
+.textreg{
+    width: 185px;
+}
+
+aside {
+    width: 200px; /* Ширина правой колонки */
+    float: left; /* Обтекание */
+    margin-top: 70px;
+}
+
+article {
+    margin-left: 240px; /* Отступ справа */
+}
+
+footer {
+
+
+    overflow: auto; /* Отменяем схлопывающиеся отступы */
+    position: relative; /* Относительное позиционирование */
+}
+
+.footer-bg {
+    background: #e2ed9c; /* Цвет фона подвала */
+    margin-top: 80px; /* Сдвигаем вниз */
+}
+.copyright {
+    width: 1200px; /* Ширина макета без полей */
+    padding: 0 10px 10px; /* Поля */
+    margin: auto; /* Выравнивание по центру */
+    color: #526118; /* Цвет текста */
+}
+.copyright p {
+    margin: 0 0 5px 170px; /* Отступы текста */
+}
+/*.container-main {*/
+/*    background-color: #ffffff;*/
+/*}*/
+
+/*.col {*/
+/*    margin: 10px;*/
+/*    height: 360px;*/
+/*    width: 200px;*/
+/*}*/
+
+/*.container-left {*/
+/*    margin: 5px;*/
+/*    padding: 5px;*/
+
+/*}*/
+
+/*.table-responsive {*/
+/*    margin-top: 50px;*/
+/*    left: 1px;*/
+/*}*/
+.conteiner-text-registrbloc {
+    padding-top: auto;
+    padding-bottom: auto;
+
+}
+
+.container-submit {
+       padding: 5px;
+}
+ul.menu {
+    list-style: none; /* Убираем маркеры */
+    margin: 40px 0; /* Отступ сверху и снизу */
+    padding: 0; /* Поля */
+}
+ul.menu li {
+    padding: 5px; /* Поля */
+    font-size: 0.8em; /* Размер шрифта */
+    font-weight: bold; /* Жирное начертание */
+}
+
+
+ul.menu a, ul.menu span {
+    padding: 5px; /* Поля */
+}
+
+ul.menu li span {
+    padding-left: 25px; /* Поле слева */
+    background: url(img/bullet.png) no-repeat 5px center; /* Маркер */
+}
+
+ul.menu li.current {
+    background: #f9f2e2 url(img/menu-gradient.png) repeat-y; /* Градиент */
+}
