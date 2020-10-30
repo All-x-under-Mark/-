@@ -72,70 +72,81 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Роман</td>
-                        <td>Боровик</td>
-                        <td>1994</td>
-                        <td>Захисник</td>
-                        <td>Мойсівка</td>
+                        <td>${player.playersList[0].name}</td>
+                        <td>${player.playersList[0].surname}</td>
+                        <td>${player.playersList[0].age}</td>
+                        <td>${player.playersList[0].position}</td>
+                        <td>${player.playersList[0].command}</td>
                     </tr>
                     <tr>
-                        <td>
-                            ${age}
-                            ${player.playersMap.p1.name}
+                        <td>${player.playersList[1].name}</td>
+                        <td>${player.playersList[1].surname}</td>
+                        <td>${player.playersList[1].age}</td>
+                        <td>${player.playersList[1].position}</td>
+                        <td>${player.playersList[1].command}</td>
 
+                    </tr>
+                    <tr>
+                        <td>${player.playersList[2].name}</td>
+                        <td>${player.playersList[2].surname}</td>
+                        <td>${player.playersList[2].age}</td>
+                        <td>${player.playersList[2].position}</td>
+                        <td>${player.playersList[2].command}</td>
+                    </tr>
+                    <td>${player.playersList[3].name}</td>
+                    <td>${player.playersList[3].surname}</td>
+                    <td>${player.playersList[3].age}</td>
+                    <td>${player.playersList[3].position}</td>
+                    <td>${player.playersList[3].command}</td>
+                    <tr>
+                        <td>${player.playersList[4].name}</td>
+                        <td>${player.playersList[4].surname}</td>
+                        <td>${player.playersList[4].age}</td>
+                        <td>${player.playersList[4].position}</td>
+                        <td>${player.playersList[4].command}</td>
+                    </tr>
+                    <tr>
+                        <td>${player.playersList[5].name}</td>
+                        <td>${player.playersList[5].surname}</td>
+                        <td>${player.playersList[5].age}</td>
+                        <td>${player.playersList[5].position}</td>
+                        <td>${player.playersList[5].command}</td>
+                    </tr>
+                    <tr>
+                        <td>${player.playersList[6].name}</td>
+                        <td>${player.playersList[6].surname}</td>
+                        <td>${player.playersList[6].age}</td>
+                        <td>${player.playersList[6].position}</td>
+                        <td>${player.playersList[6].command}</td>
+                    </tr>
+                    <tr>
+                        <td>${player.playersList[7].name}</td>
+                        <td>${player.playersList[7].surname}</td>
+                        <td>${player.playersList[7].age}</td>
+                        <td>${player.playersList[7].position}</td>
+                        <td>${player.playersList[7].command}</td>
+                    </tr>
+                    <tr>
+                        <td>${player.playersList[8].name}</td>
+                        <td>${player.playersList[8].surname}</td>
+                        <td>${player.playersList[8].age}</td>
+                        <td>${player.playersList[8].position}</td>
+                        <td>${player.playersList[8].command}</td>
+                    </tr>
+                    <tr>
+                        <td>${player.playersList[9].name}</td>
+                        <td>${player.playersList[9].surname}</td>
+                        <td>${player.playersList[9].age}</td>
+                        <td>${player.playersList[9].position}</td>
+                        <td>${player.playersList[9].command}</td>
+                    </tr>
 
-                        </td>
-                        <td>${player.playersMap.p1.surname}</td>
-                        <td>${player.playersMap.p1.surname} </td>
-                        <td>${player.playersMap.p1.surname} </td>
-                    </tr>
                     <tr>
-                        <td>
-                            <c:forEach var="pl" items="${player.playersMap.entrySet}">
-
-<%--
-                                 <c:out value="${pl.value}"/>
---%>
-
-                            </c:forEach>
-                        </td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>July</td>
-                        <td>Dooley</td>
-                        <td>july@example.com</td>
-                    </tr>
-                    <tr>
-                        <td>July</td>
-                        <td>Dooley</td>
-                        <td>july@example.com</td>
-                    </tr>
-                    <tr>
-                        <td>July</td>
-                        <td>Dooley</td>
-                        <td>july@example.com</td>
-                    </tr>
-                    <tr>
-                        <td>July</td>
-                        <td>Dooley</td>
-                        <td>july@example.com</td>
-                    </tr>
-                    <tr>
-                        <td>July</td>
-                        <td>Dooley</td>
-                        <td>july@example.com</td>
-                    </tr>
-                    <tr>
-                        <td>July</td>
-                        <td>Dooley</td>
-                        <td>july@example.com</td>
-                    </tr>
-                    <tr>
-                        <td>July</td>
-                        <td>Dooley</td>
-                        <td>july@example.com</td>
+                        <td>${player.playersList[10].name}</td>
+                        <td>${player.playersList[10].surname}</td>
+                        <td>${player.playersList[10].age}</td>
+                        <td>${player.playersList[10].position}</td>
+                        <td>${player.playersList[10].command}</td>
                     </tr>
                     </tbody>
                 </table>

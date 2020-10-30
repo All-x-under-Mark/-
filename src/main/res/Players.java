@@ -10,7 +10,7 @@ public class Players implements Serializable {
     private String name;
     private String surname;
     private String position;
-    private Double age;
+    private Integer age;
     private String command;
 
     @Override
@@ -47,7 +47,7 @@ public class Players implements Serializable {
     }
 
     @Contract(pure = true)
-    public Players (String name, String surname, String position, Double age, String command){
+    public Players (String name, String surname, String position, Integer age, String command){
         this.name = name;
         this.surname = surname;
         this.position = position;
@@ -80,11 +80,11 @@ public class Players implements Serializable {
         this.position = position;
     }
 
-    public Double getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(Double age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 

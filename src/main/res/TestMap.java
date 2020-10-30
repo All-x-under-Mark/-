@@ -1,40 +1,38 @@
 package main.res;
 
 
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
-
 import java.io.Serializable;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class TestMap implements Serializable {
-    public Map<String, Players> playersMap = new HashMap<>();
+    public List<Players> playersList = new ArrayList ();
 
 
     public TestMap() {
 
-        playersMap.put("p1", new Players("Роман", "Боровик", "Захисник", (double) 25, "ФК Юність"));
-        playersMap.put("p2", new Players("Владислав", "Павлов", "Півзахисник", (double) 24, "ФК Юність"));
+        playersList.add(new Players("Роман", "Боровик", "Захисник",  1994, "ФК Юність"));
+        playersList.add(new Players("Владислав", "Павлов", "Півзахисник", 1995, "ФК Юність"));
+        playersList.add(new Players("Сергій", "Суддя", "Півзахисник", 1995, "ФК Юність"));
+        playersList.add(new Players("Вячеслав", "Давиденко", "Півзахисник",  1975, "ФК Юність"));
+        playersList.add(new Players("Олександр", "Мина", "Захисник",  1989, "ФК Юність"));
+        playersList.add(new Players("Олександр", "Коршак", "Воротар",  1995, "ФК Юність"));
+        playersList.add(new Players("Владислав", "Давиденко", "Півзахисник",  2004, "ФК Юність"));
+        playersList.add(new Players("Іван", "Щербина", "Нападник",  2002, "ФК Юність"));
+        playersList.add(new Players("Вадим", "Магдич", "Захисник",  1989, "ФК Юність"));
+        playersList.add(new Players("Сергій", "Коршак", "Захисник",  1998, "ФК Юність"));
+        playersList.add(new Players("Олександр", "Суддя", "Нападник",  1991, "ФК Юність"));
+
+
     }
 
 
-    /*public Map<String, Players> createMap() {
-        playersMap.put(1, new Players("Роман", "Боровик", "Захисник", (double) 25, "ФК Юність"));
-        playersMap.put(2, new Players("Владислав", "Павлов", "Півзахисник", (double) 24, "ФК Юність"));
-        return playersMap;
-    }*/
 
-    public Map<String, Players> getPlayersMap() {
+    public List <Players> getPlayersList() {
 
-        return playersMap;
+        return playersList;
     }
 
-    public void setPlayersMap(Map<String, Players> playersMap) {
-        this.playersMap = playersMap;
-    }
+
 }
 
 

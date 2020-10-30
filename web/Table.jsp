@@ -6,6 +6,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -58,29 +60,122 @@
             </aside>
 
             <article>
-                <h1 class="dixotomia">Метод дихотомии</h1>
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>Команда</th>
+                        <th>І</th>
+                        <th>В</th>
+                        <th>Н</th>
+                        <th>П</th>
+                        <th>ГЗ</th>
+                        <th>ГП</th>
+                        <th>РГ</th>
+                        <th>О</th>
 
-                <p>Ловля льва методом дихотомии основана на последовательном делении пустыни на две части. Вначале
-                    разбиваем пустыню пополам, как показано на рис.&nbsp;1, после чего отбрасываем ту часть пустыни, где
-                    льва нет (на иллюстрации она помечена темным цветом). </p>
-                <figure>
-                    <p><img src="images/fig4-1.png" alt="Рис. 4" width="381" height="252"/></p>
-                    <figcaption>Рис. 1. Первый этап метода дихотомии</figcaption>
-                </figure>
-                <p>На следующем шаге оставшуюся часть снова делим пополам, но уже горизонтально, при этом отбрасывая
-                    часть пустыни, где льва нет (рис.&nbsp;2).</p>
-                <figure>
-                    <p><img src="images/fig4-2.png" alt="Рис. 2" width="381" height="252"/></p>
-                    <figcaption>Рис. 2. Второй этап метода дихотомии</figcaption>
-                </figure>
-                <p>Последовательное деление пустыни по вертикали и горизонтали продолжается до тех пор, пока оставшаяся
-                    часть по размерам не будет сопоставима с размерами клетки. Остается только накрыть полученный
-                    участок клеткой и лев окажется пойман.</p>
-                <p>На рис.&nbsp;3 показаны итерации ловли льва методом дихотомии.</p>
-                <figure>
-                    <p><img src="images/fig4-3.png" alt="Рис. 3" width="381" height="252"/></p>
-                    <figcaption>Рис. 3. Количество итераций</figcaption>
-                </figure>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+
+                        <td>${som.sList[0].num}</td>
+                        <td>${som.sList[0].name}</td>
+                        <td>${som.sList[0].game}</td>
+                        <td>${som.sList[0].win}</td>
+                        <td>${som.sList[0].draw}</td>
+                        <td>${som.sList[0].lost}</td>
+                        <td>${som.sList[0].goalsScored}</td>
+                        <td>${som.sList[0].goalsConceded}</td>
+                        <td>${som.sList[0].difference}</td>
+                        <td>${som.sList[0].points}</td>
+
+                    </tr>
+                    <td>${som.sList[1].num}</td>
+                    <td>${som.sList[1].name}</td>
+                    <td>${som.sList[1].game}</td>
+                    <td>${som.sList[1].win}</td>
+                    <td>${som.sList[1].draw}</td>
+                    <td>${som.sList[1].lost}</td>
+                    <td>${som.sList[1].goalsScored}</td>
+                    <td>${som.sList[1].goalsConceded}</td>
+                    <td>${som.sList[1].difference}</td>
+                    <td>${som.sList[1].points}</td>
+
+                    </tr>
+                    <tr>
+                        <td>${som.sList[2].num}</td>
+                        <td>${som.sList[2].name}</td>
+                        <td>${som.sList[2].game}</td>
+                        <td>${som.sList[2].win}</td>
+                        <td>${som.sList[2].draw}</td>
+                        <td>${som.sList[2].lost}</td>
+                        <td>${som.sList[2].goalsScored}</td>
+                        <td>${som.sList[2].goalsConceded}</td>
+                        <td>${som.sList[2].difference}</td>
+                        <td>${som.sList[2].points}</td>
+                    </tr>
+                    <td>${som.sList[3].num}</td>
+                    <td>${som.sList[3].name}</td>
+                    <td>${som.sList[3].game}</td>
+                    <td>${som.sList[3].win}</td>
+                    <td>${som.sList[3].draw}</td>
+                    <td>${som.sList[3].lost}</td>
+                    <td>${som.sList[3].goalsScored}</td>
+                    <td>${som.sList[3].goalsConceded}</td>
+                    <td>${som.sList[3].difference}</td>
+                    <td>${som.sList[3].points}</td>
+                    <tr>
+                        <td>${som.sList[4].num}</td>
+                        <td>${som.sList[4].name}</td>
+                        <td>${som.sList[4].game}</td>
+                        <td>${som.sList[4].win}</td>
+                        <td>${som.sList[4].draw}</td>
+                        <td>${som.sList[4].lost}</td>
+                        <td>${som.sList[4].goalsScored}</td>
+                        <td>${som.sList[4].goalsConceded}</td>
+                        <td>${som.sList[4].difference}</td>
+                        <td>${som.sList[4].points}</td>
+                    </tr>
+                    <tr>
+                        <td>${som.sList[5].num}</td>
+                        <td>${som.sList[5].name}</td>
+                        <td>${som.sList[5].game}</td>
+                        <td>${som.sList[5].win}</td>
+                        <td>${som.sList[5].draw}</td>
+                        <td>${som.sList[5].lost}</td>
+                        <td>${som.sList[5].goalsScored}</td>
+                        <td>${som.sList[5].goalsConceded}</td>
+                        <td>${som.sList[5].difference}</td>
+                        <td>${som.sList[5].points}</td>
+                    </tr>
+                    <tr>
+                        <td>${som.sList[6].num}</td>
+                        <td>${som.sList[6].name}</td>
+                        <td>${som.sList[6].game}</td>
+                        <td>${som.sList[6].win}</td>
+                        <td>${som.sList[6].draw}</td>
+                        <td>${som.sList[6].lost}</td>
+                        <td>${som.sList[6].goalsScored}</td>
+                        <td>${som.sList[6].goalsConceded}</td>
+                        <td>${som.sList[6].difference}</td>
+                        <td>${som.sList[6].points}</td>
+                    </tr>
+                    <tr>
+                        <td>${som.sList[7].num}</td>
+                        <td>${som.sList[7].name}</td>
+                        <td>${som.sList[7].game}</td>
+                        <td>${som.sList[7].win}</td>
+                        <td>${som.sList[7].draw}</td>
+                        <td>${som.sList[7].lost}</td>
+                        <td>${som.sList[7].goalsScored}</td>
+                        <td>${som.sList[7].goalsConceded}</td>
+                        <td>${som.sList[7].difference}</td>
+                        <td>${som.sList[7].points}</td>
+                    </tr>
+
+                    </tbody>
+                </table>
             </article>
         </div>
     </div>
