@@ -9,9 +9,10 @@
     <list default="true" id="2d57d2b4-01ff-4a33-ad49-a9fe84193972" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/PlayersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/PlayersServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/TestMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/TestMap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/Сommand.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/Сommand.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitledEE/main/res/PlayersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitledEE/main/res/PlayersServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/PlayersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/PlayersServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitledEE/main/res/TestMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitledEE/main/res/TestMap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/TestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/TestMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Сommand.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Сommand.jsp" afterDir="false" />
     </list>
@@ -356,7 +357,7 @@
       <workItem from="1603897568231" duration="145000" />
       <workItem from="1603900395247" duration="12032000" />
       <workItem from="1603962096024" duration="25026000" />
-      <workItem from="1604042433229" duration="11229000" />
+      <workItem from="1604042433229" duration="12080000" />
     </task>
     <task id="LOCAL-00001" summary="три">
       <created>1604050770119</created>
@@ -407,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604057593037</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="три">
+      <created>1604058339502</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604058339502</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

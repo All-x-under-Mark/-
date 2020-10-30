@@ -1,3 +1,4 @@
+
 <%--
   Created by IntelliJ IDEA.
   User: Александр
@@ -78,9 +79,9 @@
                     </tr>
                     <tr>
                         <td>
-                            <%--<jsp id="player" scope="request" type="main.res.TestMap"/>&ndash;%&gt;--%>
+                            <jsp id="player" scope="request" type="main.res.TestMap"/>
                             <p>
-                                ${age}
+                                ${player.}
 
                             </p>
                             <p>
