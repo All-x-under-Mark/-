@@ -6,14 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d57d2b4-01ff-4a33-ad49-a9fe84193972" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/PlayersServlet.java" afterDir="false" />
+    <list default="true" id="2d57d2b4-01ff-4a33-ad49-a9fe84193972" name="Default Changelist" comment="три">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/Сommand.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/Сommand.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/Players.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/Players.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/PlayersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/PlayersServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Achievements.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Achievements.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/PhotoGallery.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/PhotoGallery.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Сommand.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Сommand.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -154,7 +152,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14965986" />
     <property name="project.structure.side.proportion" value="0.34712642" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -356,7 +354,8 @@
       <workItem from="1598268205586" duration="2515000" />
       <workItem from="1603897568231" duration="145000" />
       <workItem from="1603900395247" duration="12032000" />
-      <workItem from="1603962096024" duration="22473000" />
+      <workItem from="1603962096024" duration="25026000" />
+      <workItem from="1604042433229" duration="4592000" />
     </task>
     <servers />
   </component>
@@ -368,11 +367,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="три" />
+    <option name="LAST_COMMIT_MESSAGE" value="три" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitledEE$Tomcat_8_5_51.ic" NAME="Tomcat 8.5.51 Coverage Results" MODIFIED="1584474546748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

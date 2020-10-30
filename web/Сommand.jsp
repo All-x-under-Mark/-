@@ -77,9 +77,9 @@
                     <td>Мойсівка</td>
                 </tr>
                 <tr>
-                    <td>
-                        <p> ${name}
-                            ${age}
+                    <td> <jsp:useBean id="players" scope="request" type="main.res.Players"/>
+                        <p> ${players.name}
+
                              </p>
 
 
