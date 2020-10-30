@@ -1,4 +1,3 @@
-
 <%--
   Created by IntelliJ IDEA.
   User: Александр
@@ -8,7 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<%--<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>--%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -81,18 +80,27 @@
                     </tr>
                     <tr>
                         <td>
-                                 ${age}
+                            ${age}
                             ${player.playersMap.p1.name}
 
 
                         </td>
-                        <td></td>
-                        <td>mary@example.com</td>
+                        <td>${player.playersMap.p1.surname}</td>
+                        <td>${player.playersMap.p1.surname} </td>
+                        <td>${player.playersMap.p1.surname} </td>
                     </tr>
                     <tr>
-                        <td>July</td>
-                        <td>Dooley</td>
-                        <td>july@example.com</td>
+                        <td>
+                            <c:forEach var="pl" items="${player.playersMap.entrySet}">
+
+<%--
+                                 <c:out value="${pl.value}"/>
+--%>
+
+                            </c:forEach>
+                        </td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>July</td>

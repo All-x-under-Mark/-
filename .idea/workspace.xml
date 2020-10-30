@@ -7,10 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d57d2b4-01ff-4a33-ad49-a9fe84193972" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/untitledEE_ejb_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/TestMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/TestMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitledEE/main/res/TestMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitledEE/main/res/TestMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/TestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/TestMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitledEE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitledEE.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Command.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Command.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -140,7 +141,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../apache-tomcat-8.5.51" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/taglibs-standard-impl-1.2.5.jar!/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -148,7 +149,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.14965986" />
     <property name="project.structure.side.proportion" value="0.34712642" />
     <property name="settings.editor.selected.configurable" value="com.poratu.idea.plugins.tomcat.setting.TomcatSettingConfigurable" />
@@ -158,22 +159,22 @@
       <recent name="main.res" />
       <recent name="main.dao" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\untitledEE\web" />
-      <recent name="C:\untitledEE\web\WEB-INF\view" />
-      <recent name="C:\untitledEE\web\WEB-INF" />
-      <recent name="C:\untitledEE\src\main\res" />
-      <recent name="C:\untitledEE\src\img" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="main.dao" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\untitledEE\web\img" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\untitledEE\web" />
+      <recent name="C:\untitledEE\web\WEB-INF\view" />
+      <recent name="C:\untitledEE\web\WEB-INF" />
+      <recent name="C:\untitledEE\src\main\res" />
+      <recent name="C:\untitledEE\src\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -494,7 +495,7 @@
       <workItem from="1604042433229" duration="13626000" />
       <workItem from="1604060763671" duration="1133000" />
       <workItem from="1604067992006" duration="3659000" />
-      <workItem from="1604073931476" duration="1638000" />
+      <workItem from="1604073931476" duration="4772000" />
     </task>
     <task id="LOCAL-00001" summary="три">
       <created>1604050770119</created>
@@ -573,7 +574,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604073697857</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="три">
+      <created>1604075684784</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604075684784</updated>
+    </task>
+    <task id="LOCAL-00013" summary="четыре">
+      <created>1604075761403</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604075761403</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,7 +619,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="три" />
-    <option name="LAST_COMMIT_MESSAGE" value="три" />
+    <MESSAGE value="четыре" />
+    <option name="LAST_COMMIT_MESSAGE" value="четыре" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitledEE$Tomcat_8_5_51.ic" NAME="Tomcat 8.5.51 Coverage Results" MODIFIED="1584474546748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

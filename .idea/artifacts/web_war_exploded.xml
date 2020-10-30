@@ -9,6 +9,8 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Hibernate 5.4.11-5.4.11" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/17.0.0/annotations-17.0.0.jar" />
+          <element id="library" level="project" name="taglibs-standard-impl-1.2.5" />
         </element>
       </element>
     </root>
