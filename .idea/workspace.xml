@@ -8,24 +8,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2d57d2b4-01ff-4a33-ad49-a9fe84193972" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/Achievements.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/Achievements.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/History.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/History.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/PhotoGallery.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/PhotoGallery.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/Table.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/Table.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/PlayersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/PlayersServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/Сommand.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitledEE/main/res/PlayersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitledEE/main/res/PlayersServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/PlayersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/PlayersServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitledEE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitledEE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Achievements.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Achievements.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/History.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/History.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/PhotoGallery.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/PhotoGallery.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Table.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Table.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Сommand.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Command.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/TestMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/TestMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitledEE/main/res/TestMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitledEE/main/res/TestMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/TestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/TestMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Command.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Command.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -507,7 +493,8 @@
       <workItem from="1603962096024" duration="25026000" />
       <workItem from="1604042433229" duration="13626000" />
       <workItem from="1604060763671" duration="1133000" />
-      <workItem from="1604067992006" duration="3397000" />
+      <workItem from="1604067992006" duration="3659000" />
+      <workItem from="1604073931476" duration="1638000" />
     </task>
     <task id="LOCAL-00001" summary="три">
       <created>1604050770119</created>
@@ -579,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604060419048</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="три">
+      <created>1604073697857</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604073697857</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
