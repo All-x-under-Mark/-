@@ -60,80 +60,79 @@
 
                 <table class="table table-hover">
                     <thead>
-                <tr>
-                    <th>Імя</th>
-                    <th>Прізвище</th>
-                    <th>Рік народження</th>
-                    <th>Позиція</th>
-                    <th>Проживає</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>Роман</td>
-                    <td>Боровик</td>
-                    <td>1994</td>
-                    <td>Захисник</td>
-                    <td>Мойсівка</td>
-                </tr>
-                <tr>
-                    <td>
-                       <%--<jsp id="player" scope="request" type="main.res.TestMap"/>&ndash;%&gt;--%>
-                        <p>
-                            ${age}
+                    <tr>
+                        <th>Імя</th>
+                        <th>Прізвище</th>
+                        <th>Рік народження</th>
+                        <th>Позиція</th>
+                        <th>Проживає</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Роман</td>
+                        <td>Боровик</td>
+                        <td>1994</td>
+                        <td>Захисник</td>
+                        <td>Мойсівка</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <%--<jsp id="player" scope="request" type="main.res.TestMap"/>&ndash;%&gt;--%>
+                            <p>
+                                ${age}
 
-                             </p>
-                        <p>
+                            </p>
+                            <p>
 
-                        </p>
+                            </p>
 
 
-
-                         </td>
-                    <td></td>
-                    <td>mary@example.com</td>
-                </tr>
-                <tr>
-                    <td>July</td>
-                    <td>Dooley</td>
-                    <td>july@example.com</td>
-                </tr>
-                <tr>
-                    <td>July</td>
-                    <td>Dooley</td>
-                    <td>july@example.com</td>
-                </tr>
-                <tr>
-                    <td>July</td>
-                    <td>Dooley</td>
-                    <td>july@example.com</td>
-                </tr>
-                <tr>
-                    <td>July</td>
-                    <td>Dooley</td>
-                    <td>july@example.com</td>
-                </tr>
-                <tr>
-                    <td>July</td>
-                    <td>Dooley</td>
-                    <td>july@example.com</td>
-                </tr>
-                <tr>
-                    <td>July</td>
-                    <td>Dooley</td>
-                    <td>july@example.com</td>
-                </tr>
-                <tr>
-                    <td>July</td>
-                    <td>Dooley</td>
-                    <td>july@example.com</td>
-                </tr>
-                <tr>
-                    <td>July</td>
-                    <td>Dooley</td>
-                    <td>july@example.com</td>
-                </tr>
-                </tbody>
+                        </td>
+                        <td></td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                    </tbody>
                 </table>
 
             </article>

@@ -26,9 +26,7 @@ playersMap.put(1, new Players("Роман", "Боровик", "Захисник"
    }
     public Map<Integer, Players> getPlayersMap() {
 
-        playersMap.put(1, new Players("Роман", "Боровик", "Захисник", (double) 25, "ФК Юність"));
-        playersMap.put(2, new Players("Владислав", "Павлов", "Півзахисник", (double) 24, "ФК Юність"));
-        return playersMap;
+         return playersMap;
     }
 
     public void setPlayersMap(Map<Integer, Players> playersMap) {
