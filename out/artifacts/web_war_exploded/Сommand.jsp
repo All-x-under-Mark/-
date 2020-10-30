@@ -78,8 +78,9 @@
                 </tr>
                 <tr>
                     <td>
-                        <jsp:useBean id="player" scope="request" type="main.res.TestMap"/>
+                       <%-- <jsp id="player" scope="request" type="main.res.TestMap"/>--%>
                         <p>
+                            ${age}
 
                              </p>
                         <p>

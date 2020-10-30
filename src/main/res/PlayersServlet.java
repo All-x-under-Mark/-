@@ -13,19 +13,19 @@ import javax.servlet.ServletException;
 @WebServlet(value = "/Сommand")
 public class PlayersServlet extends HttpServlet {
 
-    private TestMap testMap;
+   /* private TestMap testMap;
 
     @Override
     public void init(ServletConfig config) throws ServletException {
         super.init();
 
 testMap = new TestMap ();
-    }
+    }*/
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        request.setAttribute("игрок", testMap);
+       // request.setAttribute("игрок", testMap);
         request.setAttribute("age", 34);
 
         getServletContext().getRequestDispatcher("/Сommand.jsp").forward(request, response);
