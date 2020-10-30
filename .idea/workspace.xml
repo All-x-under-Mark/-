@@ -13,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/Сommand.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/Сommand.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitledEE/main/res/PlayersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitledEE/main/res/PlayersServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitledEE/main/res/TestMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitledEE/main/res/TestMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/PlayersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/PlayersServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/TestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/TestMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Сommand.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Сommand.jsp" afterDir="false" />
     </list>
@@ -357,7 +358,7 @@
       <workItem from="1603897568231" duration="145000" />
       <workItem from="1603900395247" duration="12032000" />
       <workItem from="1603962096024" duration="25026000" />
-      <workItem from="1604042433229" duration="12080000" />
+      <workItem from="1604042433229" duration="13275000" />
     </task>
     <task id="LOCAL-00001" summary="три">
       <created>1604050770119</created>
@@ -415,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604058339502</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="три">
+      <created>1604059191301</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604059191301</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

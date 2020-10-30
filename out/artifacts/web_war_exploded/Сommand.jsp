@@ -79,9 +79,9 @@
                     </tr>
                     <tr>
                         <td>
-                            <jsp id="player" scope="request" type="main.res.TestMap"/>
+                            <%--        <jsp id="testMap" scope="request" type="main.res.TestMap"/>--%>
                             <p>
-                                ${player.}
+                                ${age}
 
                             </p>
                             <p>

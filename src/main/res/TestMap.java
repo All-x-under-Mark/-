@@ -1,8 +1,6 @@
 package main.res;
 
 
-
-
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -79,23 +77,22 @@ public class TestMap implements Serializable {
     };
 
 
-
-    public TestMap (){
+    public TestMap() {
 
         playersMap.put(1, new Players("Роман", "Боровик", "Захисник", (double) 25, "ФК Юність"));
         playersMap.put(2, new Players("Владислав", "Павлов", "Півзахисник", (double) 24, "ФК Юність"));
     }
 
 
+    public Map<Integer, Players> createMap() {
+        playersMap.put(1, new Players("Роман", "Боровик", "Захисник", (double) 25, "ФК Юність"));
+        playersMap.put(2, new Players("Владислав", "Павлов", "Півзахисник", (double) 24, "ФК Юність"));
+        return playersMap;
+    }
 
-   public Map<Integer, Players> createMap (){
-       playersMap.put(1, new Players("Роман", "Боровик", "Захисник", (double) 25, "ФК Юність"));
-       playersMap.put(2, new Players("Владислав", "Павлов", "Півзахисник", (double) 24, "ФК Юність"));
-  return playersMap;
-   }
     public Map<Integer, Players> getPlayersMap() {
 
-         return playersMap;
+        return playersMap;
     }
 
     public void setPlayersMap(Map<Integer, Players> playersMap) {
