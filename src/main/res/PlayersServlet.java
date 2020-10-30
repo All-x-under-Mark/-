@@ -3,6 +3,7 @@ package main.res;
 
 
 import java.io.IOException;
+import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
         import javax.servlet.annotation.WebServlet;
         import javax.servlet.http.HttpServlet;
@@ -14,8 +15,11 @@ public class PlayersServlet extends HttpServlet {
 
     private TestMap testMap;
 
-    public PlayersServlet(TestMap testMap) {
-        this.testMap = testMap;
+    @Override
+    public void init(ServletConfig config) throws ServletException {
+        super.init();
+
+testMap = new TestMap ();
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
