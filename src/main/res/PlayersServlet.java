@@ -3,7 +3,6 @@ package main.res;
 
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import javax.servlet.ServletException;
         import javax.servlet.annotation.WebServlet;
         import javax.servlet.http.HttpServlet;
@@ -14,6 +13,10 @@ import javax.servlet.ServletException;
 public class PlayersServlet extends HttpServlet {
 
     private TestMap testMap;
+
+    public PlayersServlet(TestMap testMap) {
+        this.testMap = testMap;
+    }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
