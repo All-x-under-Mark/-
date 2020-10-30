@@ -77,9 +77,9 @@
                     <td>Мойсівка</td>
                 </tr>
                 <tr>
-                    <td>
-                        <p> ${name}
-                            ${age}
+                    <td> <jsp:useBean id="player" scope="request" type="main.res.TestMap"/>
+                        <p> ${player.playersMap.get(2).name}
+
                              </p>
 
 

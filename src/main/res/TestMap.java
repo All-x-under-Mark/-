@@ -18,13 +18,16 @@ playersMap.put(1, new Players("Роман", "Боровик", "Захисник"
     }
 
 
-   /* public void newCreate (){
-        Players players = new Players();
-        playersMap.put(i,players);
-        i++;
-    }*/
 
+   public Map<Integer, Players> createMap (){
+       playersMap.put(1, new Players("Роман", "Боровик", "Захисник", (double) 25, "ФК Юність"));
+       playersMap.put(2, new Players("Владислав", "Павлов", "Півзахисник", (double) 24, "ФК Юність"));
+  return playersMap;
+   }
     public Map<Integer, Players> getPlayersMap() {
+
+        playersMap.put(1, new Players("Роман", "Боровик", "Захисник", (double) 25, "ФК Юність"));
+        playersMap.put(2, new Players("Владислав", "Павлов", "Півзахисник", (double) 24, "ФК Юність"));
         return playersMap;
     }
 

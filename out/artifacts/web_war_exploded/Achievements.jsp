@@ -45,7 +45,7 @@
 
 
                     <li><a href="index.jsp">Головна</a></li>
-                    <li><a href="Сommand.jsp">Команда</a> <br></li>
+                    <li><a href="Сommand">Команда</a> <br></li>
                     <li><a href="Table.jsp">Таблиця</a> <br></li>
                     <li><a href="History.jsp">Історія</a> <br></li>
                     <li><a href="PhotoGallery.jsp">Фотогалерея</a> <br></li>

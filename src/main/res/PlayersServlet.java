@@ -13,12 +13,12 @@ import javax.servlet.ServletException;
 @WebServlet(value = "/Сommand")
 public class PlayersServlet extends HttpServlet {
 
-    private Players players;
+    private TestMap testMap;
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        request.setAttribute("игрок", players);
+        request.setAttribute("игрок", testMap);
         request.setAttribute("age", 34);
 
         getServletContext().getRequestDispatcher("/Сommand.jsp").forward(request, response);

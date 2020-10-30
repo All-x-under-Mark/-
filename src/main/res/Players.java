@@ -48,11 +48,11 @@ public class Players implements Serializable {
 
     @Contract(pure = true)
     public Players (String name, String surname, String position, Double age, String command){
-        name = this.name;
-        surname = this.surname;
-        position = this.position;
-        age = this.age;
-        command = this.command;
+        this.name = name;
+        this.surname = surname;
+        this.position = position;
+        this.age = age;
+        this.command = command;
 
     }
 
