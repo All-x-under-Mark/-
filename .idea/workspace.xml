@@ -7,26 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d57d2b4-01ff-4a33-ad49-a9fe84193972" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/taglibs_standard_compat_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/Comand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/CommandList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/CommandServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/taglibs_standard_impl_1_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/Table.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/Table.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/Players.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/Players.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/PlayersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/PlayersServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/TestMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/TestMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitledEE/main/res/Players.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitledEE/main/res/Players.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitledEE/main/res/PlayersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitledEE/main/res/PlayersServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitledEE/main/res/TestMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitledEE/main/res/TestMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/Players.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/Players.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/PlayersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/PlayersServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/CommandList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/CommandList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/TestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/TestMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitledEE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitledEE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Command.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Command.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Table.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Table.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -509,7 +491,7 @@
       <workItem from="1604042433229" duration="13626000" />
       <workItem from="1604060763671" duration="1133000" />
       <workItem from="1604067992006" duration="3659000" />
-      <workItem from="1604073931476" duration="19562000" />
+      <workItem from="1604073931476" duration="19838000" />
     </task>
     <task id="LOCAL-00001" summary="три">
       <created>1604050770119</created>
@@ -609,7 +591,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604078714561</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="четыре">
+      <created>1604101507824</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604101507824</updated>
+    </task>
+    <task id="LOCAL-00016" summary="пять">
+      <created>1604101549354</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604101549354</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,7 +637,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="три" />
     <MESSAGE value="четыре" />
-    <option name="LAST_COMMIT_MESSAGE" value="четыре" />
+    <MESSAGE value="пять" />
+    <option name="LAST_COMMIT_MESSAGE" value="пять" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitledEE$Tomcat_8_5_51.ic" NAME="Tomcat 8.5.51 Coverage Results" MODIFIED="1584474546748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
