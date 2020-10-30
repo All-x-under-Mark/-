@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(value = "/Сommand")
+@WebServlet(value = "/Command")
 public class PlayersServlet extends HttpServlet {
 
     private TestMap testMap;
@@ -27,13 +27,14 @@ public class PlayersServlet extends HttpServlet {
             throws ServletException, IOException {
 
         request.setAttribute("player", testMap);
-        request.setAttribute("age", 34);
 
-        getServletContext().getRequestDispatcher("/Сommand.jsp").forward(request, response);
+
+        getServletContext().getRequestDispatcher("/Command.jsp").forward(request, response);
         }
 */
         protected void doGet (HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
             req.setAttribute("player", testMap);
+            req.setAttribute("age", 34);
             RequestDispatcher requestDispatcher = req.getRequestDispatcher("/Command.jsp");
             requestDispatcher.forward(req, resp);
         }

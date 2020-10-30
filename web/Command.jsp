@@ -79,14 +79,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <%--        <jsp id="testMap" scope="request" type="main.res.TestMap"/>--%>
-                            <p>
-                                ${age}
-
-                            </p>
-                            <p>
-
-                            </p>
+                                 ${age}
 
 
                         </td>
