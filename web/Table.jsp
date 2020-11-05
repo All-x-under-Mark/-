@@ -229,7 +229,7 @@
 
             </form>
             <p> 32 ${war.name}</p>
-            <input type="text" id="text1" size="10">
+            <input type="text" id="text1" value="${war.name}" size="10">
 
         </div>
     </div>

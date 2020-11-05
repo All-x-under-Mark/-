@@ -47,7 +47,7 @@ public class CommandServlet extends HttpServlet {
         if ("submit".equals(action)) {
        //     sList.sList.set(0, war.setName(request.getParameter("text")));
            war.setName(request.getParameter("text"));
-           war.setName("jgf");
+        //   war.setName("jgf");
 
 
         }
