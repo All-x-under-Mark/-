@@ -177,6 +177,60 @@
                     </tbody>
                 </table>
             </article>
+
+            <%--<article>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        Dropdown button
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" value = "${som.sList[1].num}"> Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                </div>
+
+            </article>--%>
+
+
+            <form method="post" action="Table.jsp">
+                <select>
+                    <option value="${som.sList[1].num}">Драбов</option>
+                    <option value="${som.sList[2].num}">Станція</option>
+                    <option value="${som.sList[3].num}">Білоусовка</option>
+                    <option value="${som.sList[4].num}">Перервинці</option>
+                    <option value="${som.sList[5].num}">Кононівка</option>
+                    <option value="${som.sList[6].num}">Ковалівка</option>
+                    <option value="${som.sList[7].num}">Степанівка</option>
+                    <option value="${som.sList[8].num}">Свічківка</option>
+                </select>
+
+                <input type="number" id="goal1" size="10">
+                <input type="number" id="goal2" size="10">
+                <input type="text" id="text" size="10">
+
+                <select>
+                    <option value="${som.sList[1].num}">Драбов</option>
+                    <option value="${som.sList[2].num}">Станція</option>
+                    <option value="${som.sList[3].num}">Білоусовка</option>
+                    <option value="${som.sList[4].num}">Перервинці</option>
+                    <option value="${som.sList[5].num}">Кононівка</option>
+                    <option value="${som.sList[6].num}">Ковалівка</option>
+                    <option value="${som.sList[7].num}">Степанівка</option>
+                    <option value="${som.sList[8].num}">Свічківка</option>
+                </select>
+
+                <p><button type="submit">Save</button>
+
+
+              <%--  <input type="text" name="name" value="${war}" placeholder="${war}" /></dd>--%>
+
+
+
+            </form>
+            <p> 32 ${war.name}</p>
+            <input type="text" id="text1" size="10">
+
         </div>
     </div>
 </div>

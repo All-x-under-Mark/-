@@ -7,8 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d57d2b4-01ff-4a33-ad49-a9fe84193972" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/Table.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/Table.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/TestMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/res/TestMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitledEE/main/res/TestMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitledEE/main/res/TestMap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/CommandList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/CommandList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/TestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/TestMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/CommandServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/CommandServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Table.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Table.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,30 +32,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="books: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ErrorTreeViewConfiguration">
@@ -491,7 +473,13 @@
       <workItem from="1604042433229" duration="13626000" />
       <workItem from="1604060763671" duration="1133000" />
       <workItem from="1604067992006" duration="3659000" />
-      <workItem from="1604073931476" duration="19838000" />
+      <workItem from="1604073931476" duration="20192000" />
+      <workItem from="1604129955089" duration="2470000" />
+      <workItem from="1604157075029" duration="602000" />
+      <workItem from="1604415012048" duration="8523000" />
+      <workItem from="1604433015810" duration="8722000" />
+      <workItem from="1604482276709" duration="1944000" />
+      <workItem from="1604577581214" duration="2910000" />
     </task>
     <task id="LOCAL-00001" summary="три">
       <created>1604050770119</created>
@@ -605,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604101549354</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="пять">
+      <created>1604101635597</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604101635597</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

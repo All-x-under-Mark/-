@@ -7,6 +7,7 @@ import java.util.List;
 public class CommandList implements Serializable {
 
     public List<Comand> sList = new ArrayList();
+    public Comand comand = new Comand();
 
 
     public CommandList() {
@@ -29,6 +30,13 @@ public class CommandList implements Serializable {
         sList.add(new Comand(7, "Сокол Свічківка", 14, 0, 0,
                 14, 3, 75, -72, 0));
 
+    }
+
+
+
+
+    public void setsList(List<Comand> sList) {
+        this.sList = sList;
     }
 
     public List<Comand> getsList() {
